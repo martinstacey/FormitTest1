@@ -12,7 +12,7 @@ document.getElementById("CreateBlockBtn").addEventListener("click", () => {
     const h = Number(document.getElementById("Height").value);
     const l = Number(document.getElementById("Length").value);
 
-    createBlock(w * 3,l,h);
+    createBlock(w * 3,l*2,h);
 
     
 });
