@@ -11,8 +11,8 @@ document.getElementById("CreateBlockBtn").addEventListener("click", () => {
     const w = Number(document.getElementById("Width").value);
     const h = Number(document.getElementById("Height").value);
     const l = Number(document.getElementById("Length").value);
-
-    createBlock(w,l,h);
+    console.log("sdcsdcsd")
+    createBlock(w,l,h*2);
 
     
 });
